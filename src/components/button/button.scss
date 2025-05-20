@@ -1,0 +1,22 @@
+.button__icon {
+    width: 40px;
+    height: 40px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+    background: #F5F5F9;
+
+    /* 1 */
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.50), 5px 5px 10px 0px rgba(170, 170, 204, 0.25), 10px 10px 20px 0px rgba(170, 170, 204, 0.50), -10px -10px 20px 0px #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BDBDBD;
+
+    &.active {
+        box-shadow: -2.5px -2.5px 5px 0px #FAFBFF inset, 2.5px 2.5px 5px 0px #CBCBE0 inset; 
+        color: #5533EA;
+    }
+}

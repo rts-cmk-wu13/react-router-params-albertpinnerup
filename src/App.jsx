@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router"
+import Home from "./views/Home"
 import './style.scss'
 
 
@@ -9,7 +10,7 @@ function App() {
 
     {
       path: "/",
-      element: <div>Home</div>
+      element: <Home />,
     }
   ])
 
